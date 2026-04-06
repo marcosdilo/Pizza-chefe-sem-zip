@@ -6,16 +6,17 @@
     <title>Login</title>
 </head>
 <body>
+  <form id="meuForm" action="login.php" method="post">
     <div class="registro">
-        <form action="login.php" method="post">
-            <input type="text" name="nome" required>
-            <input type="email" name="email" required>
-            <input type="password" name="senha" required>
-            <button>Entrar</button>
-        </div>
-            <div class="registro">
-                 <a href="html/login1.html">Já tenho uma conta</a>
-    </form> 
-<script src="validacao.js"></script>
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+        
+        <button type="submit">Entrar</button>
+    </div>
+
+    <div class="opcoes">
+        <a href="login1.html">Já tenho uma conta</a>
+    </div>
+</form>
 </body>
-</html>
