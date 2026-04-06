@@ -8,7 +8,7 @@ if($conn->connect_error) {
 // regisrar a bomba
 
 $nome = $_POST['nome'];
-$email = $_POST['senha'];
+$email = $_POST['email'];
 $senha = $_POST['senha'];
 
 //sql
